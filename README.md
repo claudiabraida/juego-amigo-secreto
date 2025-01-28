@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/4dda0b84-70af-4d6e-abc4-a5f03d8314ff)
+
 # Juego Amigo Secreto
 
 Este proyecto forma parte del Programa ONE, una alianza entre Alura Latam y Oracle y ha sido desarrollado como parte de un desafío planteado como práctica final del curso de Principiante en Programación G8 - ONE.
