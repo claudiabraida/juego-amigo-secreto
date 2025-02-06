@@ -18,7 +18,7 @@ function agregarAmigo () {
   elementoVacio($inputAmigo)
   
   if(nombreIngresado === "") {
-    alert("Por favor, inserte un nombre.")
+    alert("Por favor, ingrese un nombre.")
   } else {
     actualizarArray (nombreIngresado)
   }  
@@ -27,7 +27,8 @@ function agregarAmigo () {
 /* 💥💥💥💥💥💥 FUNCION ACTUALIZAR DATOS (ARRAY) 💥💥💥💥💥💥 */
 function actualizarArray (nombreIngresado) {
   arrayAmigos.push(nombreIngresado)
-  console.log(arrayAmigos)
+  arrayAmigos
+  // console.log(arrayAmigos)
 }
 
 
@@ -40,7 +41,7 @@ function sortearAmigo() {
     
     mostrarAmigoElegido(amigosorteado)
   } if (arrayAmigos.length === 1) {
-    alert("necesitas ingresar al menos 2 nombres para sortear ")
+    alert("Necesitas ingresar al menos 2 nombres para sortear ")
   }
 }
 
